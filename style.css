@@ -1,0 +1,68 @@
+body{
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+    margin: 0%;
+    height: 100%;
+    background-position: center;
+    
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signup{
+    min-height: 500px;
+    min-width: 400px;
+    background-color: aliceblue;
+    
+}
+.header{
+    height: 60px;
+    width: 400px;
+    border-bottom: solid 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    margin-left: 10px;
+    padding: 3px;
+    width: 300px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: grey;
+}
+label{
+    margin-left: 5px;
+
+}
+.body{
+    font-size: 20px;
+    margin-top: 6px;
+}
+.submit{
+    border-top: solid 1px;
+    margin-top: 10px;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit>button{
+    color: honeydew;
+    width: 300px;
+    height: 30px;
+    background-color: grey;
+}
